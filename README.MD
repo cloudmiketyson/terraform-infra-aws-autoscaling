@@ -12,7 +12,9 @@ Configuration of Launch Templates to define the specifications for the EC2 insta
 Setup of Elastic Load Balancer (ELB) to distribute incoming traffic among the EC2 instances.
 Integration with Amazon CloudWatch for monitoring and scaling based on custom metrics and alarms.
 Management of security groups and IAM roles to ensure secure access and permissions within the infrastructure.
+
 Prerequisites
+
 Before using this Terraform code, ensure that you have:
 
 An AWS account with appropriate permissions to create and manage resources.
