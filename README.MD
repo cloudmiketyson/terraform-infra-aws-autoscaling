@@ -44,3 +44,5 @@ Apply the Terraform configuration to create the AutoScaling infrastructure:
 terraform apply
 
 Once the resources are provisioned, you can access the AWS Management Console to monitor and manage your AutoScaling Groups, EC2 instances, ELB, and other associated resources.
+
+The state file adds a config to manage the state file in a secure S3 bucket with DynamoDB lock protection.
